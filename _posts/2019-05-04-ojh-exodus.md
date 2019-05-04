@@ -31,6 +31,8 @@ introduction: 'Put your description here.'
  - git remote -v //현재 리모트 저장소 확인, 커밋전 제대로 올리는 건지 확인
  - git push //git에 반영. 이제 수정한 내용이 보일것임
 
+q1. 현재 시각 받아오는 방법이 있을 텐데?
+
 따라해봅시다.
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
