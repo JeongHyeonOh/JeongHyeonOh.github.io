@@ -13,13 +13,13 @@ twitter_text: 'Put your twitter description here.'
 introduction: 'Put your description here.'
 ---
 
-처음 했던 실수들
+##처음 했던 실수들
 1. _config.yml
  - url에 ""안감싸기
  - baseurl수정 안해서 css적용 안됐음
 2. 파일명 형식 안지켜서 새로 포스팅한 페이지가 노출이 안됨
  - YYYY-MM-DD-FILENAME.MD <= 여기서 날짜를 잘못적음
- 
+
 3. 깃 커밋 및 푸시 방법
  - cd work folder
  - git status // 깃 상태 확인
