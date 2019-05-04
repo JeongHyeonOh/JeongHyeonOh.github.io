@@ -13,20 +13,25 @@ twitter_text: 'Put your twitter description here.'
 introduction: 'Put your description here.'
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+처음 했던 실수들
+1. _config.yml
+ - url에 ""안감싸기
+ - baseurl수정 안해서 css적용 안됐음
+2. 파일명 형식 안지켜서 새로 포스팅한 페이지가 노출이 안됨
+ - YYYY-MM-DD-FILENAME.MD <= 여기서 날짜를 잘못적음
+ 
+3. 깃 커밋 및 푸시 방법
+ - cd work folder
+ - git status // 깃 상태 확인
+ - git add * // 새로 만든 파일을 커밋 할 수 있게 해줌
+ - git status
+ -
+ - git commit -m "commit comment"
+ - git status
+ - git remote -v //현재 리모트 저장소 확인, 커밋전 제대로 올리는 건지 확인
+ - git push //git에 반영. 이제 수정한 내용이 보일것임
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+따라해봅시다.
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
 [jekyll]:    http://jekyllrb.com
